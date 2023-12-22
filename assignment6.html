@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const productsDetails={
+            name:"apple",
+            price:82000,
+            color:"red",
+            hardDisl:"256 GB"
+        }
+        // console.log(productsDetails)
+       function deatais(arr){
+        console.log("Below are the product details")
+        for(let key of Object.keys(arr)){
+            console.log(`${key}:${arr[key]}`)
+        }
+       }
+
+       deatais(productsDetails)
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const students=[
+            {
+                name:"max",
+                mark:34
+            },
+            {
+                name:"cryssr",
+                mark:94
+            }, 
+            {
+                name:"jimi",
+                mark:67
+            },
+            {
+                name:"rocky",
+                mark:99
+            }
+        ]
+        console.log(students)
+
+      function checkResults(username){
+        for (const student of students) {
+            // console.log(student)
+            if(student.name===username){
+                if(student.mark>=90){
+                    console.log(`${student.name} is pass`)
+                }
+                else{
+                    console.log(`${student.name} is fail`)
+                }
+            }
+            
+              
+        }
+      }
+
+
+        // checkResults()
+        checkResults("jimi")
+        checkResults("koko")
+    </script>
+</body>
+</html>

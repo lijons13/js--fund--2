@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const list=["manu","hari","raghu","jmimi"]
+        
+        function isPresent(user){
+            // console.log(user)
+            // console.log(list)
+            if(list.includes(user)){
+                console.log(`Yes,${user} is valid user`)
+            }
+            else{
+                console.log(`No,${user} not a valid user`)
+            }
+        }
+
+        // isPresent("lijo")
+        isPresent("manu")
+        isPresent("lijo")
+        isPresent("hari")
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calculateTotalCartValue(){
+            let totalValue=0;
+            for(let i=0;i<arguments.length;i++){
+                totalValue=totalValue+arguments[i]
+                
+            }
+            console.log(`The total cart value is ${totalValue}`)
+        }
+        calculateTotalCartValue(10,10,3)
+    </script>
+</body>
+</html>
